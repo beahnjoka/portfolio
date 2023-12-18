@@ -1,0 +1,113 @@
+@import "../../vars.css";
+
+.aboutSection {
+    position: relative;
+    background-color: rgba(12, 12, 12, 0.6); 
+    border-radius: 15px;
+    margin-top: 129px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 73px;
+  }
+
+  .title{
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+  }
+
+  .underline{
+    width: 100px;
+    height: 6px;
+    background: #007bff;
+    border-radius: 9px;
+}
+  
+  .contentContainer {
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+  }
+  
+  .imageContainer {
+    width: 40%; /* Adjust the width as needed */
+  }
+
+  .aboutpic{
+    width: 400px; /* Set width for display picture */
+    height: 400px; /* Set height for display picture */
+    border-radius: 70%; /* Make display picture a perfect circle */
+   
+  }
+  
+  .textContainer {
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+    background-image: linear-gradient(90deg,
+    rgba(165,215,232,0.42) 0%,
+    rgba(255,255,0) 100%
+    );
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+  }
+  
+  .subtitle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .subtitle h3{
+    color: bisque;
+  }
+  
+  /* Style for the icon/image */
+  .subtitle > svg {
+    margin-right: 10px;
+    color: #007bff; /* Adjust the margin as needed */
+  }
+  
+  @media screen and (max-width: 830px){
+    .aboutSection{
+      background-color: transparent;
+      padding-left: 0;
+      padding-right: 0;
+      align-items: center;
+      margin-top: 5px;
+    }
+
+    .contentContainer{
+      flex-direction: column;
+    }
+
+    .textContainer{
+      margin-top: 29px;
+      align-items: center; /* Center-align text for smaller screens */
+    }
+    .aboutpic{
+      display: none;
+    }
+
+    .subtitle{
+      
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .title{
+      color: var(--color-text);
+      font-size: 30px;
+      font-weight: 500;
+      letter-spacing: 1.75px;
+      text-transform: uppercase;
+    }
+
+
+    
+  }

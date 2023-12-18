@@ -1,0 +1,20 @@
+[
+    
+    {
+        "role": "freelancer",
+        "organization": "upwork",
+        "startDate": "January 2023",
+        "endDate": "present",
+        "experinces": ["worked on mobile applications", "web application"]
+    },
+
+    {
+        "role": "attachee",
+        
+        "organization": "Nyeri law courts",
+        "startDate": "January 2022",
+        "endDate": "April 2022",
+        "experinces": ["worked on hardware applications", "worked on organizations network system"]
+    }
+
+]

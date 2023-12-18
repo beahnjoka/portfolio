@@ -1,0 +1,54 @@
+/* services.module.css */
+@import "../../vars.css";
+
+.container {
+  margin-top: 76px;
+  color: var(--color-text);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.services {
+  margin-top: 37px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.serviceCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+  box-shadow: 0 16px 14px 0 #04152d;
+  padding: 18px 24px;
+  width: 300px;
+  margin-bottom: 24px;
+}
+
+.serviceIcon {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 16px;
+}
+
+.serviceTitle {
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.serviceDescription {
+  font-size: 20px;
+  font-weight: 300;
+  text-align: start;
+}

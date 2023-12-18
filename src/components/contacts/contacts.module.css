@@ -1,0 +1,81 @@
+/* contacts.module.css */
+
+@import '../../vars.css';
+
+.container {
+  color: var(--color-text);
+  margin-top: 76px;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Adjusted to space between text and links */
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.text h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.text p {
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Align links to the end of the container */
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.link a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.link p {
+  margin: 0;
+}
+
+.final {
+  display: flex;
+  justify-content: center; 
+  margin-top: 20px; 
+  padding-bottom: 10px;
+}
+
+.faHeart {
+  margin-right: 5px;
+  margin-left: 5px;
+  color: red;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column;
+    gap: 23px;
+  }
+
+  .text, .links {
+    align-items: center;
+  }
+}
