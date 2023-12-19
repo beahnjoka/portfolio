@@ -1,25 +1,25 @@
 [
     {
       "id": 1,
-      "icon": "src/assets/webdev.png",
+      "icon": "/assets/webdev.png",
       "title": "Web Development",
       "description": "Crafting responsive and dynamic websites tailored to your needs."
     },
     {
       "id": 2,
-      "icon": "src/assets/mobile.png",
+      "icon": "/assets/mobile.png",
       "title": "Mobile App Dev",
       "description": "Building cross-platform mobile applications for iOS and Android."
     },
     {
       "id": 3,
-      "icon": "src/assets/uiux.png",
+      "icon": "/assets/uiux.png",
       "title": "UI/UX Design",
       "description": "Creating visually appealing and user-friendly interfaces for your applications."
     },
     {
       "id": 4,
-      "icon": "src/assets/consulting.png",
+      "icon": "/assets/consulting.png",
       "title": "IT Consultation",
       "description": "Strategic IT guidance for optimized infrastructure and innovative solutions tailored to your business needs."
     }

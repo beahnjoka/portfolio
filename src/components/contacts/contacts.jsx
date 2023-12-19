@@ -18,7 +18,7 @@ const ContactUsSection = () => {
         <ul className={styles.links}>
           <li className={styles.link}>
             <FontAwesomeIcon icon={faEnvelope} className={styles.icon}/>
-            <a href="mailto:beahtechdynamics@gmail.com">  beahtechdynamics@gmail.com</a>
+            <a href="mailto:beatechdynamics@gmail.com">  beatechdynamics@gmail.com</a>
           </li>  
         </ul>
 

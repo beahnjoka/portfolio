@@ -1,26 +1,26 @@
 [
     { 
         "name": "HTML", 
-        "image": "src/assets/htmllogo.png"
+        "image": "/assets/htmllogo.png"
     },
 
     { 
         "name": "css", 
-        "image": "src/assets/csslogo.png"
+        "image": "/assets/csslogo.png"
     },
 
     { 
         "name": "JavaScript", 
-        "image": "src/assets/jslogo.jpg" 
+        "image": "/assets/jslogo.jpg" 
     },
 
     { 
         "name": "React", 
-        "image": "src/assets/reactlogo.png" 
+        "image": "/assets/reactlogo.png" 
     },
 
     { "name": "Flutter", 
-    "image": "src/assets/flutterlogo.png"
+    "image": "/assets/flutterlogo.png"
     }
     
   ]

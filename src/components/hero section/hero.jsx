@@ -1,7 +1,7 @@
 // HeroSection.js
 import React from 'react';
 import styles from './hero.module.css';
-import display from '../../assets/display2.jpg'
+import display from '../../../public/assets/display2.jpg'
 
 const HeroSection = () => {
   return (

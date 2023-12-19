@@ -4,7 +4,7 @@ import React from 'react';
 import styles from './about.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faGlobe, faCode, faCogs } from '@fortawesome/free-solid-svg-icons';
-import display from '../../assets/display2.jpg'
+import display from '../../../public/assets/display2.jpg'
 
 const AboutSection = () => {
   return (
