@@ -3,7 +3,7 @@
         "title": "Tic-tac-toe game",
         "image": "/assets/tictactoe.png",
         "description":" This is a project made to create a tic tac toe game using react",
-        "skills": ["React", "CSS"],
+        "skills": ["React", "CSS", "javascript"],
         "demo":"https://devbeah-tictac.netlify.app",
         "source":"https://github.com/beahnjoka/tictactoe-game"
     },
@@ -12,7 +12,7 @@
         "title": "Search filter",
         "image": "/assets/search.png",
         "description":" This is a project made to create a search filter using react",
-        "skills": ["React", "CSS"],
+        "skills": ["React", "CSS","javascript"],
         "demo":"https://simple-search-filter.netlify.app",
         "source":"https://github.com/beahnjoka/search-filter"
     },
@@ -21,7 +21,7 @@
         "title": "To-do list",
         "image": "/assets/todol.jpg",
         "description":" This is a project made to create a todo list using react",
-        "skills": ["React", "CSS"],
+        "skills": ["React", "CSS", "javascript"],
         "demo":"https://todolist-devbeah.netlify.app",
         "source":"https://github.com/beahnjoka/todo-list"
     }
