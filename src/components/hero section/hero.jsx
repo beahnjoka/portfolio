@@ -14,7 +14,7 @@ const HeroSection = () => {
         Ready to bring some digital pizzazz to the party and make clients smile! 😎✨
         </p>
         <a
-          href="https://wa.me/+254112218558"
+          href="https://wa.me/+254738141026"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.contactButton}
